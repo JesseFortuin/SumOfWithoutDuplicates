@@ -8,7 +8,7 @@ namespace SumOfWithoutDuplicates.test
         [InlineData(new int[] { 3, 4, 3, 6 }, 10)]
         [InlineData(new int[] { 1, 1, 2, 3 }, 5)]
         [InlineData(new int[] {1, 1, 2, 2, 3}, 3)]
-            
+
         public void SumNoDuplicates(int[] input, int expected)
         {
             //arrange
@@ -19,7 +19,6 @@ namespace SumOfWithoutDuplicates.test
 
             //assert
             Assert.Equal(expected, actual);
-        
         }
     }
 }
